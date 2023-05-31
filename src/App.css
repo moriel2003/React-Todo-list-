@@ -2,37 +2,29 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.inputTask{
+  padding: 5px;
+  margin-right: 8px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul{
+  list-style: none;
 }
-
-.App-link {
-  color: #61dafb;
+li{
+  margin: 13px ;
 }
+.deleteTask ,.addButton,.clearTasks{
+  font-size: 10px;
+  margin-left: 13px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border: none;
+  color: black;
+  border-radius: 4px;
+
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.checkBox{
+  margin: 0 10px;
+  margin-left: 13px;
 }
